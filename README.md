@@ -22,7 +22,7 @@ This script:
 
 ## FAQ
 
-### The script can't see my contributors
+### Why can't the script can't see my contributors?
 
 Edit `regex1` and `regex2` in `app.py`
 
