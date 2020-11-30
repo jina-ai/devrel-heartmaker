@@ -12,11 +12,13 @@ This script:
 ## Usage
 
 1. Ensure you've used [all-contributors](https://github.com/all-contributors/all-contributors) to get contributors into your repo's `README.md`
-2. Save your `README.md` into `input`
-3. `pip install -r requirements.txt`
-4. `python app.py`
-5. The script will take a while (the more contributors, the more time)
-6. A window will pop up allowing you to view and save the image
+2. Clone this repo: 
+3. `cd devrel-heartmaker`
+4. Save your `README.md` into `input`
+5. `pip install -r requirements.txt`
+6. `python app.py`
+7. The script will take a while (the more contributors, the more time)
+8. A window will pop up allowing you to view and save the image
 
 ## FAQ
 
