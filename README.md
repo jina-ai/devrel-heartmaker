@@ -1,7 +1,7 @@
 # Heart Maker
 
 <p align="center">
-<img align="center" src="example.png">
+  <a href="https://github.com/jina-ai/jina"><img align="center" src="example.png"></a>
 </p>
 
 This script:
