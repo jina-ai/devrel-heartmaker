@@ -1,13 +1,13 @@
 # Heart Maker
 
-This script:
-- scrapes a list of contributor avatar URLs from a `README.md` file ([example](https://github.com/jina-ai/jina/#contributors-))
-- plots them into a heart shape
-- presents the heart and allows user to save as image
-
 <p align="center">
 <img align="center" src="example.png">
 </p>
+
+This script:
+- scrapes a list of contributor avatar URLs from a `README.md` file ([example](https://github.com/jina-ai/jina/#contributors-))
+- creates a mosaic of the images in the shape of a heart
+- presents the heart and allows user to save as image
 
 ## Usage
 
@@ -32,6 +32,6 @@ Tweak `grid_size` in `app.py`
 
 There are only a finite number of ways to fill a heart. You couldn't do it with just 1 or 2 avatars without duplication after all. As long as there are gaps in the heart, they have to be filled somehow, and we do this via duplication
 
-### Sources
+## Sources
 
 - [code golf - Draw/plot a heart graph - Code Golf Stack Exchange](https://codegolf.stackexchange.com/questions/109917/draw-plot-a-heart-graph)
