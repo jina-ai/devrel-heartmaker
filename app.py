@@ -9,9 +9,10 @@ import numpy as np
 from PIL import Image
 from mpl_toolkits.axes_grid1 import ImageGrid
 
-input_file = "input/README.md"
+input_file = 'input/README.md'
 
 grid_size = 20
+avatar_size = 64
 regex1 = r'<!-- markdownlint-disable -->(.*)<!-- markdownlint-restore -->'
 regex2 = r"<img src=\"(.*?)\" class=\"avatar-user\""
 
@@ -48,7 +49,7 @@ for id, ax in enumerate(grid):
             # Iterating over the grid returns the Axes.
             with urlopen(req) as f:
                 img = Image.open(f)
-                img = img.resize((64, 64))
+                img = img.resize((avatar_size, avatar_size))
                 im = np.asarray(img)
         all_contributors.append(url)
         ax.imshow(im)
