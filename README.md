@@ -34,6 +34,10 @@ Tweak `grid_size` in `app.py`
 
 There are only a finite number of ways to fill a heart. You couldn't do it with just 1 or 2 avatars without duplication after all. As long as there are gaps in the heart, they have to be filled somehow, and we do this via duplication
 
+### I have too many contributors, can't show them all
+
+Change `grid_size = 20` to a larger number, say `grid_size = 30` (~ 150 contributors), `grid_size = 40` (~ 200 contributors) 
+
 ## Inspiration
 
 - [code golf - Draw/plot a heart graph - Code Golf Stack Exchange](https://codegolf.stackexchange.com/questions/109917/draw-plot-a-heart-graph)
