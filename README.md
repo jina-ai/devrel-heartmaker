@@ -18,7 +18,7 @@ This script:
 3. Clone this repo: `git clone git@github.com:jina-ai/devrel-heartmaker.git`
 4. `cd devrel-heartmaker`
 6. `pip install -r requirements.txt`
-7. `python app.py --org_name=<your_org_name>`
+7. `python app.py --org=<your_org_name>`
 8. The script will take a while (the more contributors, the more time)
 9. A window will pop up allowing you to view and save the heart mosaic
 
